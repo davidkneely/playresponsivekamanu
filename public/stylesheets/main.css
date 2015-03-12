@@ -1,3 +1,88 @@
 body {
-  padding-top: 70px;  /* Move body of page below navbar. */
+  margin-top: 40px;
+  background-color: black;
 }
+
+.mainImage {
+  background-image: url("../images/pueo-canoes-front.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+
+.pueoImage {
+  background-image: url("../images/cover-pueo-page.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 385px;
+}
+
+.page-content {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.navbar-brand {
+  padding: 0px;
+  margin:0px;
+  background-image: url("../images/header-logo.jpg");
+  width: 180px;
+}
+
+.navbar {
+
+  background: url("../images/bg-carbon.jpg");
+  border-right: 1px dotted #f3f3f3;
+  height: 82px;
+}
+
+.navbar-inverse .navbar-nav .active a {
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav li {
+  border-right: 1px dotted #f3f3f3;
+  height: 82px;
+}
+
+.section-1 {
+  color: gold;
+  background: url('thesesareus.jpg');
+  background-size: cover;
+  padding: 100px;
+}
+
+.section-1 h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: khaki;
+}
+
+.section-2 > h1 {
+  margin: 10px 20px 20px 20px;
+}
+
+.section-2 {
+  background-color: beige;
+  padding: 20px;
+
+}
+
+.well-color {
+  background-color: khaki;
+  padding: 40px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.section-3 {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  background-color: khaki;
+}
+
+
